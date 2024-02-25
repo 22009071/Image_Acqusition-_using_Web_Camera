@@ -29,6 +29,139 @@ Display Video or Image. Use 'imshow' to display the captured video frame or imag
 
 ## Program:
 ``` Python
+### Developed By:kabilan T
+### Register No:212222230059
+
+## i) Write the frame as JPG file
+import cv2
+videoCaptureObject = cv2.VideoCapture(0)
+while (True):
+    ret,frame = videoCaptureObject.read()
+    cv2.imwrite("img.jpeg",frame)
+    result = False
+videoCaptureObject.release()
+cv2.destroyAllWindows()
+
+
+         OR
+
+import cv2
+
+videoCaptureObject = cv2.VideoCapture(0)
+max_frames = 4  # Maximum number of frames to capture
+frame_count = 0
+
+while frame_count < max_frames:
+    ret, frame = videoCaptureObject.read()
+    cv2.imwrite(f"img_{frame_count}.jpeg", frame)
+    frame_count += 1
+
+videoCaptureObject.release()
+cv2.destroyAllWindows()
+
+
+
+
+## ii) Display the video
+import cv2
+videoCaptureObject = cv2.VideoCapture(0)
+while(True):
+    ret,frame = videoCaptureObject.read()
+    cv2.imshow('myimage',frame)
+    if cv2.waitKey(1) == ord('q'):
+        break
+videoCaptureObject.release()
+cv2.destroyAllWindows()
+
+
+
+
+## iii) Display the video by resizing the window
+import cv2
+import numpy as np
+cap = cv2.VideoCapture(0)
+while True:
+    ret, frame = cap.read() 
+    width = int(cap.get(3))
+    height = int(cap.get(4))
+    image = np.zeros(frame.shape, np.uint8) 
+    smaller_frame = cv2.resize(frame, (0,0), fx = 0.5, fy=0.5) 
+    image[:height//2, :width//2] = smaller_frame
+    image[height//2:, :width//2] = smaller_frame
+    image[:height//2, width//2:] = smaller_frame 
+    image [height//2:, width//2:] = smaller_frame
+    cv2.imshow('myimage', image)
+    if cv2.waitKey(1) == ord('q'):
+        break
+cap.release()
+cv2.destroyAllWindows()
+
+
+
+
+## iv) Rotate and display the video
+import cv2
+import numpy as np
+cap = cv2.VideoCapture(0)
+while True:
+    ret, frame = cap.read() 
+    width = int(cap.get(3))
+    height = int(cap.get(4))
+    image = np.zeros(frame.shape, np.uint8) 
+    smaller_frame = cv2.resize(frame, (0,0), fx = 0.5, fy=0.5) 
+    image[:height//2, :width//2] = cv2.rotate(smaller_frame,cv2.ROTATE_180)
+    image[height//2:, :width//2] = cv2.rotate(smaller_frame,cv2.ROTATE_180)
+    image[:height//2, width//2:] = smaller_frame 
+    image [height//2:, width//2:] = smaller_frame
+    cv2.imshow('myimage', image)
+    if cv2.waitKey(1) == ord('q'):
+        break
+cap.release()
+cv2.destroyAllWindows()
+
+
+
+
+
+
+
+
+
+```
+## Output
+
+### i) Write the frame as JPG image
+# Image_Acqusition-_using_Web_Camera
+## Aim
+ 
+Aim:
+ 
+To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
+i) Write the frame as JPG 
+ii) Display the video 
+iii) Display the video by resizing the window
+iv) Rotate and display the video
+
+## Software Used
+Anaconda - Python 3.7
+## Algorithm
+### Step 1:
+Import OpenCV Package.
+
+### Step 2:
+Capture Video from Webcam. Use VideoCapture(0) to access the webcam and start capturing video.
+
+### Step 3:
+Read Video or Image. Utilize 'imread' to read a video frame or image from the webcam.
+
+### Step 4:
+Save Image to File. Employ 'imwrite' to save the captured image to a file.
+
+### Step 5:
+Display Video or Image. Use 'imshow' to display the captured video frame or image, and end Program with 'q'. Allow the program to be terminated by pressing the 'q' key.
+
+## Program:
+``` Python
 ### Developed By:RAGUNATH R
 ### Register No:212222240081
 
@@ -132,6 +265,30 @@ cv2.destroyAllWindows()
 
 ### i) Write the frame as JPG image
 ![image](https://github.com/Ragu-123/Image_Acqusition-_using_Web_Camera/assets/113915622/44cf5382-6880-46fd-b49e-19cefdceb7b5)
+
+
+
+### ii) Display the video
+<img width="477" alt="Screenshot 2024-02-25 122946" src="https://github.com/22009071/Image_Acqusition-_using_Web_Camera/assets/120206067/8bbffd4d-7b86-4de4-add1-594488bdf601">
+
+
+
+### iii) Display the video by resizing the window
+<img width="479" alt="Screenshot 2024-02-25 123523" src="https://github.com/22009071/Image_Acqusition-_using_Web_Camera/assets/120206067/be867220-5174-4c0c-bc47-d1b4a19ccff8">
+
+
+
+
+
+### iv) Rotate and display the video
+<img width="477" alt="Screenshot 2024-02-25 123338" src="https://github.com/22009071/Image_Acqusition-_using_Web_Camera/assets/120206067/a5eebd0d-882b-43b0-9aac-8394d7b4f9c9">
+
+
+
+
+
+
+## Result:
 
 
 
