@@ -131,22 +131,25 @@ cv2.destroyAllWindows()
 ## Output
 
 ### i) Write the frame as JPG image
+![image](https://github.com/22009071/Image_Acqusition-_using_Web_Camera/assets/120206067/3bbb5c3e-725e-49e8-a9cf-33c5896c7e7f)
 
 
 
 
 ### ii) Display the video
-![WhatsApp Image 2024-02-22 at 13 51 13_c94dd397](https://github.com/Ragu-123/Image_Acqusition-_using_Web_Camera/assets/113915622/36aff539-4413-4a35-b0e0-f8e53b59046d)
+<img width="477" alt="Screenshot 2024-02-25 122946" src="https://github.com/22009071/Image_Acqusition-_using_Web_Camera/assets/120206067/b1264101-f894-4cb2-810e-6e2cbdefa0e4">
 
 
 ### iii) Display the video by resizing the window
-![WhatsApp Image 2024-02-22 at 13 53 33_9d275659](https://github.com/Ragu-123/Image_Acqusition-_using_Web_Camera/assets/113915622/41da4d20-5aa7-445e-96aa-04ba087ea1aa)
+<img width="479" alt="Screenshot 2024-02-25 123523" src="https://github.com/22009071/Image_Acqusition-_using_Web_Camera/assets/120206067/0c2fd93d-26ed-49c3-b1c2-14aced270a4b">
+
 
 
 
 
 ### iv) Rotate and display the video
-![WhatsApp Image 2024-02-22 at 13 56 32_8697fb4d](https://github.com/Ragu-123/Image_Acqusition-_using_Web_Camera/assets/113915622/706c3b05-9a2e-4f3a-aac1-a32ad9936cfb)
+<img width="477" alt="Screenshot 2024-02-25 123338" src="https://github.com/22009071/Image_Acqusition-_using_Web_Camera/assets/120206067/219e4009-37cc-4c14-8ae9-e475f7ac28ab">
+
 
 
 
