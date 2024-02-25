@@ -29,7 +29,7 @@ Display Video or Image. Use 'imshow' to display the captured video frame or imag
 
 ## Program:
 ``` Python
-### Developed By:kabilan T
+### Developed By:KABILAN T
 ### Register No:212222230059
 
 ## i) Write the frame as JPG file
@@ -130,45 +130,8 @@ cv2.destroyAllWindows()
 ```
 ## Output
 
-
-
-
-
-
-
-
-
-
-
-```
-## Output
-
 ### i) Write the frame as JPG image
-![image](https://github.com/Ragu-123/Image_Acqusition-_using_Web_Camera/assets/113915622/44cf5382-6880-46fd-b49e-19cefdceb7b5)
 
-
-
-### ii) Display the video
-<img width="477" alt="Screenshot 2024-02-25 122946" src="https://github.com/22009071/Image_Acqusition-_using_Web_Camera/assets/120206067/8bbffd4d-7b86-4de4-add1-594488bdf601">
-
-
-
-### iii) Display the video by resizing the window
-<img width="479" alt="Screenshot 2024-02-25 123523" src="https://github.com/22009071/Image_Acqusition-_using_Web_Camera/assets/120206067/be867220-5174-4c0c-bc47-d1b4a19ccff8">
-
-
-
-
-
-### iv) Rotate and display the video
-<img width="477" alt="Screenshot 2024-02-25 123338" src="https://github.com/22009071/Image_Acqusition-_using_Web_Camera/assets/120206067/a5eebd0d-882b-43b0-9aac-8394d7b4f9c9">
-
-
-
-
-
-
-## Result:
 
 
 
@@ -190,3 +153,4 @@ cv2.destroyAllWindows()
 
 
 ## Result:
+Thus the image is accessed from webcamera and displayed using openCV.
